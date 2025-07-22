@@ -1,4 +1,4 @@
-﻿#include <cstdio>
+#include <cstdio>
 #include <cstdlib>
 #include <mpi.h>
 
@@ -23,6 +23,11 @@ int main(int argc, char** argv) {
         float k = 500;
         int min_size = 20;
 
+        // Si se va a ejecutar en entorno MPI mantener
+        // const char* input_filename = "../../image_data/cat.pnm";
+        // const char* output_filename = "../../image_results/cat_mpi.ppm";
+
+		// Si se va a ejecutar "Depurador local de Windows" cambiar a:
         const char* input_filename = "../image_data/cat.pnm";
         const char* output_filename = "../image_results/cat_mpi.ppm";
 
