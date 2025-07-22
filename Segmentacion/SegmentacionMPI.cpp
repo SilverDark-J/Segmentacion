@@ -24,12 +24,12 @@ int main(int argc, char** argv) {
         int min_size = 20;
 
         // Si se va a ejecutar en entorno MPI mantener
-        // const char* input_filename = "../../image_data/cat.pnm";
-        // const char* output_filename = "../../image_results/cat_mpi.ppm";
+        const char* input_filename = "../../image_data/cat.pnm";
+        const char* output_filename = "../../image_results/cat_mpi.ppm";
 
 		// Si se va a ejecutar "Depurador local de Windows" cambiar a:
-        const char* input_filename = "../image_data/cat.pnm";
-        const char* output_filename = "../image_results/cat_mpi.ppm";
+        // const char* input_filename = "../image_data/cat.pnm";
+        // const char* output_filename = "../image_results/cat_mpi.ppm";
 
         // Tiempo de inicio
         double start_time = MPI_Wtime();
