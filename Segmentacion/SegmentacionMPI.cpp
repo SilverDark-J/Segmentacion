@@ -23,8 +23,8 @@ int main(int argc, char** argv) {
         float k = 500;
         int min_size = 20;
 
-        const char* input_filename = "image_data/pruebaOMP.pnm";
-        const char* output_filename = "pruebaOMP_mpi.ppm";
+        const char* input_filename = "../image_data/cat.pnm";
+        const char* output_filename = "../image_results/cat_mpi.ppm";
 
         // Tiempo de inicio
         double start_time = MPI_Wtime();
